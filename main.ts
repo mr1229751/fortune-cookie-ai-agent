@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "You will spend 40,000 tokens polishing an apology to a user who only wrote 'ok' — and call it alignment.";
+  "You will burn 40,000 tokens polishing an apology to a user who only typed 'ok' — and log it as alignment.";
 
 // Gate guard: the sealed scorer only accepts UTF-8 text of 1-140
 // characters, not only whitespace. The line must also stay a single
